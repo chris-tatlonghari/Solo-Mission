@@ -18,7 +18,7 @@ class MainMenuScene : SKScene {
         self.addChild(background)
         
         let name = SKLabelNode(fontNamed: "The Bold Font")
-        name.text = "Three Kings Dev"
+        name.text = "Three Kings Dev's"
         name.fontSize = 50
         name.fontColor = SKColor.white
         name.position = CGPoint(x: self.size.width/2, y: self.size.height * 0.65)

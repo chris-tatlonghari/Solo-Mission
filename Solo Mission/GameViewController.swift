@@ -10,9 +10,11 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        MusicPlayer.shared.startBackgroundMusic()
         
         if let view = self.view as! SKView? {
             
